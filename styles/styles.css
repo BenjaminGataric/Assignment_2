@@ -5,9 +5,7 @@ Some starter CSS has been provided. You are discouraged from modifying the start
 The instructions describe the missing styling and layout that is needed; you will translate these into CSS declarations in the places indicated.
 
 */
-
 /****************** page defaults ******************/
-
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -32,7 +30,6 @@ body {
 h1, h2 {
     font-family: 'Roboto Slab', serif;
 }
-
 /***  INSTRUCTIONS:
 
 - 1st level headings will be 32px. +
@@ -97,8 +94,10 @@ header, footer {
     margin: 30px;
 }
 footer {
+    margin: 15px;
     padding: 15px;
 }
+
 footer div{
     text-align: center;
 }
@@ -113,8 +112,6 @@ ul {
 header h1 {
     margin-right: auto;
 }
-
-
 /****************** home page styling ******************/
 
 /***  INSTRUCTIONS:
@@ -133,12 +130,6 @@ article {
 .italics {
     font-style: italic;
 }
-
-
-
-
-
-
 /****************** profile page styling ******************/
 
 /***  INSTRUCTIONS:
@@ -152,10 +143,12 @@ article {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
+h2 {
+    position: relative;
+}
 .wide-column {
     width: 420px;
     h2 {
-        position: relative;
         bottom: 10px;
         margin-right: 15px;
     }
@@ -163,7 +156,6 @@ article {
 .narrow-column {
     width: 180px;
     h2 {
-        position: relative;
         top: 15px;
         left: 15px;
         margin-bottom: 15px;
@@ -178,11 +170,6 @@ article {
 .labels {
     text-align: right;
 }
-
-
-
-
-
 /****************** form styling ******************/
 
 /***  INSTRUCTIONS:
@@ -216,7 +203,3 @@ button {
     margin-top: 30px;
     margin-left: 515px;
 }
-
-
-
-
